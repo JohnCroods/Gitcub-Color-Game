@@ -574,9 +574,9 @@
             // Get difficulty multiplier (reduced by 15% for easier scoring)
             function getDifficultyMultiplier() {
                 switch(difficulty) {
-                    case 'easy': return 1.15; // Increased from 1.0
-                    case 'medium': return 1.7; // Increased from 1.5
-                    case 'hard': return 2.3; // Increased from 2.0
+                    case 'easy': return 1.; // Increased from 1.0
+                    case 'medium': return 1.5; // Increased from 1.5
+                    case 'hard': return 2; // Increased from 2.0
                     default: return 1;
                 }
             }
